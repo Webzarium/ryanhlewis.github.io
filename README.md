@@ -2,7 +2,7 @@
 Let's make a Github website or two.
 
 
-The respective website source code for all my Github Page websites is under the gh-pages branch of each repository for every one.
+The respective website source code for all my Github Page websites is under the gh-pages branch of each respective repository.
 
 
 Created the following websites, and hosted them using Github Pages:
