@@ -24,6 +24,6 @@ Created the following websites, and hosted them using Github Pages:
  And this is just a seperate website, hosted on a Raspberry Pi Apache server of mine:
  
   
-  [Mists of Grianan Website](mists.ga)
+  [Mists of Grianan Website](https://mists.ga)
 
   <img src="https://dc773.4shared.com/img/3d75z91Ziq/s24/176a776f600/screenshot-mists-ga-1609127071?async&rand=0.3787947605761346" width="400" /> 
