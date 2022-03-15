@@ -1,7 +1,150 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<!--
+    Personal Website created for Paul Toprac's Assignment #1
+    Course: Elements of Game Development
+-->
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="I'm Ryan Hardesty Lewis, and this is my website. Click it.">
+        <meta name="author" content="Ryan Hardesty Lewis">
+    	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <title>Ryan Hardesty Lewis</title>
+        <meta property="og:title" content="Ryan Hardesty Lewis">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://ryanhardestylewis.com/">
+        <meta property="og:image" content="https://avatars.githubusercontent.com/u/76540311?v=4">
+        <meta property="og:description" content="I'm Ryan Hardesty Lewis, and this is my website. Click it.">
+        <meta name="theme-color" content="#FF0000">
+        <meta name="twitter:card" content="I'm Ryan Hardesty Lewis, and this is my website. Click it.!">
+        <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@18657a9/css/all.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <div id="content">
+            <div id="profileboxwrap">
+                <div>
+                    <br />
+                    <br />
+                </div>
+                <div id="profilebox">
+                    <a href="#">
+                        <img class="picture" src="https://avatars.githubusercontent.com/u/76540311?v=4" alt="Picture of Ryan" />
+                    </a>
+                    <h1>Ryan Hardesty Lewis</h1>
+                    <span>
+                        <a target="blank" href="https://www.github.com/ryanhlewis"><i class="fa-brands fa-github fa-2x" alt="Github"></i></a>
+                        <a target="blank" href="https://www.linkedin.com/in/ryanhardestylewis"><i class="fa-brands fa-linkedin fa-2x" alt="LinkedIn"></i></a>
+                        <a target="blank" href="https://ryanhlewis.itch.io/"><i class="fa-brands fa-itch-io fa-2x" alt="Itch.io"></i></a>
+                    </span>
+                    <br />
+                    <p>Check out my <a target="blank" href="Ryan Hardesty Lewis' Resume.pdf">resume</a></p>
+                    <br />
+                    <p style="margin-top: -30px;">Contact me at <a href="mailto:rhl@utexas.edu">rhl@utexas.edu</a></p>
+                </div>
+            </div>
+            <div id="infoboxwrap">
+                <div class="buttons">
+                    <form action="#about">
+                        <button type="submit" class="tab-button">About</button>
+                    </form>
+                    <form action="#projects">
+                        <button class="tab-button">Projects</button>
+                    </form>
+                    <form action="#contact">
+                        <button class="tab-button">Contact</button>
+                    </form>
+                </div>
+                <div id="infobox">
+                    <div id="displaytext">
+                        <!-- This is a hacky way to do this box, and while I originally set this all
+                    up with display:none and display:block queries, those did not allow me to
+                    do the temporary introduction message that z-index allows.  -->
+
+                        <div id="intro">
+                            <br />
+                            <br />
+                            <br />
+                            <h1 class="big">Hi! I'm Ryan.</h1>
+                            <br />
+                            <div class="text">
+                                <p>I'm a current UT Austin student and programmer.</p>
+                                <p>
+                                    I am a Freshman, and am actively seeking any and all internships with companies and non-profits alike. I've used my current skillset to create a few games, apps, and websites, and I'm sure I can help your
+                                    company out too.
+                                </p>
+                                <p>If you're not a company, hi! Feel free to poke around, and see what I've been up to! Just use those buttons up at the top to navigate around. I made them myself.</p>
+                            </div>
+                        </div>
+
+                        <div id="about">
+                            <h1>About Me</h1>
+                            <div class="text">
+                                <p>I'm Ryan. I make games, apps, websites (even this one), and more!</p>
+                                <p></p>
+                                <p>
+                                    My story isn't unique by any means, unfortunately. I have been exposed to all the same experiences as any other programmer. Go down the list and you'll see endless stories about motivation and the
+                                    restless desire to "create something from nothing" and the usual fascination with technology, and well, it's like all software developers think the same way.
+                                </p>
+                                <p>
+                                    That aside, we don't all act the same way. We all want to do big things, and who doesn't? However, keep dreaming, and you'll never do. That's why I've put some of my ideas down into software so far. I
+                                    don't just talk about what would be cool to make or do- I act. Over in my Projects tab, you'll see a few examples of what I've worked on, and what I plan to work on.
+                                </p>
+                                <p>I think together, we could act together and do something great. <a href="#contact">Get in touch.</a></p>
+                            </div>
+                        </div>
+
+                        <div id="projects">
+                            <h1>My Projects</h1>
+                            <div class="text">
+                                <!--<p style="line-height: 30px;">Here's my latest projects. Also, check out my <a target="blank" href="games.html">Visual Game Website.</a></p>-->
+                                <br>
+                                <p style="line-height: 0px;"><a target="blank" href="https://hallowed-island.web.app">Hallowed Island</a> (October 2021)</p>
+                                <p style="font-size: 1.6em; line-height: 20px;">
+                                    Made as a one-week challenge for Halloween, this 3D first person shooter game features three uniquely scripted bosses, a huge environment, and an hour experience through a dungeon.
+                                </p>
+                                <p style="line-height: 0px;"><a target="blank" href="https://otakupuzzle.ga">Otaku Puzzle</a> (July 2021)</p>
+                                <p style="font-size: 1.6em; line-height: 20px;">
+                                    Made as a response to a friend's challenge about "easy to make puzzle games", this spin on classic 2D puzzles games is 3D, top-down, includes full networking support through WebSockets, implements a
+                                    search engine media scraper, and creates puzzles that support videos, GIFs, and most formats.
+                                </p>
+                                <p style="line-height: 0px;"><a target="blank" href="https://github.com/ryanhlewis/updatelauncher">Update Launcher</a> (July 2021)</p>
+                                <p style="font-size: 1.6em; line-height: 20px;">
+                                    Made in a few hours with Visual Studio after realizing Otaku Puzzle needed a system that fetched the most recent update, and applied it. This was fairly simple, and includes a tutorial on using it for
+                                    your own apps.
+                                </p>
+                                <p style="line-height: 0px;"><a target="blank" href="https://good-guy-knight.web.app">Good Guy Knight</a> (June 2020)</p>
+                                <p style="font-size: 1.6em; line-height: 20px;">
+                                    Made in around two weeks during downtime in the summer, this is a 2D side scroller that follows a sarcastic storyline, and should take around twenty minutes to finish.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="contact">
+                            <h1>Contact Me</h1>
+                            <div class="text">
+                                <p style="line-height: 20px;">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+                                <p>Email: rhl (AT) utexas.edu </p>
+                                <p>Discord:
+                                    Ryan Hardesty Lewis 
+                                    #2641</p>
+                                <p>Itch.io: <a target="blank" href="https://ryanhlewis.itch.io/">
+                                    https://ryanhlewis.
+                                    itch.io/</a></p>
+                                <p>LinkedIn: <a target="blank" href="https://linkedin.com/in/ryanhardestylewis">
+                                    https://linkedin.com/in/
+                                    ryanhardestylewis</a></p>
+                                <p>Github: <a target="blank" href="https://github.com/ryanhlewis">
+                                    https://github.com/
+                                    ryanhlewis</a></p>
+                                <p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
