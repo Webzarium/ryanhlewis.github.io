@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+    Personal Website created for Paul Toprac's Assignment #1
+    Course: Elements of Game Development
+-->
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="I'm Ryan Hardesty Lewis, and this is my website. Click it.">
+        <meta name="author" content="Ryan Hardesty Lewis">
+    	<link rel="shortcut icon" href="favicon.ico">
+        <title>Learning Unity</title>
+        <meta property="og:title" content="Ryan Hardesty Lewis">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://ryanhardestylewis.com/">
+        <meta property="og:image" content="https://avatars.githubusercontent.com/u/76540311?v=4">
+        <meta property="og:description" content="I'm Ryan Hardesty Lewis, and this is my website. Click it.">
+        <meta name="theme-color" content="#FF0000">
+        <meta name="twitter:card" content="I'm Ryan Hardesty Lewis, and this is my website. Click it.!">
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <div id="content">
+            <div id="profileboxwrap">
+                <div>
+                    <br />
+                    <br />
+                </div>
+                <div id="profilebox">
+                    <a href="#">
+                        <img class="picture"  src="https://user-images.githubusercontent.com/76540311/159394507-bb0d0e1d-71ca-4a7c-a1dc-0cd1ac383094.jpg" height="250vh" width="250vh" alt="Picture of Unity" />
+                    </a>
+                    <h1>Learning Unity Engine</h1>
+                    <span style="line-height:40px;">
+                        <a target="blank" class="icon-github" href="https://www.github.com/ryanhlewis" aria-label="Github"></a>
+                    </span>
+                    <br />
+                    <p>Check out the <a target="blank" href="https://docs.unity.com/">docs</a></p>
+                    <br />
+                    <p style="margin-top: -30px;">Contact me at <a href="mailto:rhl@utexas.edu">rhl@utexas.edu</a></p>
+                </div>
+            </div>
+            <div id="infoboxwrap">
+                <div class="buttons">
+                    <form action="#">
+                        <button type="submit" class="tab-button">Landing</button>
+                    </form>
+                </div>
+                <div id="infobox">
+                    <div id="displaytext">
+                      
+                        <div id="intro">
+                            <br />
+                            <button class="button-3" role="button" onclick="expandLesson()">Lesson 4: Door Interaction</button>
+                            <br />
+                        </div>
+                        <div id="lessonPlan" style="display:none">
+                                
+                            In this lesson, I'll teach you how to make a door open and close on interaction.
+                            <br>
+                            All of our work should be inside InteractDoor.cs in /Assets/.
+                            <br>
+                            Slideshow: <a href="https://docs.google.com/presentation/d/1fdurOpv-w2cKPYwGZgJ17EK9CG_IkOfg6iOOFqmbCcw/edit?usp=sharing">DoorInteraction Slides</a>
+                            <br>
+                            Starter Project: <a href="https://github.com/ryanhlewis/DoorInteraction-Starter-Project">Starter DoorInteraction Project</a>
+                            <br>
+                            Completed Project: <a href="https://github.com/ryanhlewis/DoorInteraction-Complete-Project">Complete DoorInteraction Project</a>
+                            <br>
+                            Respective Documentation: <a href="https://docs.unity3d.com/ScriptReference/Collider.OnCollisionEnter.html">OnCollisionEnter()</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function expandLesson() {
+              var x = document.getElementById("lessonPlan");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        </script>
+
+    </body>
+</html>
