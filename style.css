@@ -10,7 +10,7 @@ body {
     /* Fallback color in case image does not load */
     background-color: rgba(194, 194, 194, 0.63); 
     background-image:url('back.svg') ; 
-    background-size:cover;
+    /*background-size:cover;*/
 	background-repeat: no-repeat;
     background-position: center 70%;
     
